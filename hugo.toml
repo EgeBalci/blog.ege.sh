@@ -1,0 +1,53 @@
+baseURL = 'https://ege.sh/'
+languageCode = 'en-us'
+title = "Captain's Logs" # Website Title
+copyright = "Ege Balcı" # Footer copyright.
+theme = "vortisil"
+pagination.pagerSize = 8
+hasCJKLanguage = true
+# enableEmoji = true
+disableKinds = ["taxonomy","term"] # DO NOT MODIFY
+
+[params]
+    author = "Ege Balcı" # Author name of the article.
+    logoImg = true # If false, the site title will display.
+    logoInvert = true # If the image logo needs to be turned on Image Colour Inversion.
+    # math = true
+    
+[params.comments]
+    enabled = false
+
+[params.meta]
+    description = "Captains's logs for endless cyberspace voyage." # Site description
+
+
+[[menus.main]]
+    identifier = "home"
+    url = "/"
+    weight = 1
+
+[[menus.main]]
+    identifier = "about"
+    url = "/about"
+    weight = 2
+
+[[menus.main]]
+    identifier = "archives"
+    url = "/posts"
+    weight = 3
+
+[module]
+    [module.hugoVersion]
+        extended = true
+        min = "0.116.0"
+
+[markup]
+    [markup.highlight]
+        style = "evergarden"
+        tabWidth = 4
+        codeFences = true
+        guessSyntax = true
+
+[outputs]
+    home = ["HTML", "JSON"]
+
