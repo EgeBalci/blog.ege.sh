@@ -1,6 +1,6 @@
 +++
 date = '2025-06-16T11:25:13+02:00'
-draft = false
+draft = true
 cover = "cover.webp"
 title = 'How I Track You For Free'
 categories = ['security', 'privacy', 'opsec']
