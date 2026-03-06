@@ -45,3 +45,7 @@ disableKinds = ["taxonomy","term"] # DO NOT MODIFY
 [outputs]
     home = ["HTML", "JSON"]
 
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-M37QGZX1TL'
